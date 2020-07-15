@@ -1,0 +1,16 @@
+
+.negative__return {
+  color:red;
+}
+.container {
+  margin:4rem;
+  text-align: center;
+}
+.range {
+  padding:3rem 0  !important;
+  cursor: pointer;
+}
+
+h4 {
+  text-align: center;
+}
