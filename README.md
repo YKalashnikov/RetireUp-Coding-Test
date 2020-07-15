@@ -10,24 +10,17 @@ Code Test
 1. Download S&P 500 index returns by year (https://www.slickcharts.com/sp500/returns
 )
 
-2. Build a single page app which shows a table similar to how it is displayed in the slickcharts link above
-
-but, the year column is sorted ascending, and with an additional column `Cumulative returns` showing returns from the beginning
+2. Build a single page app which shows a table similar to how it is displayed in the slickcharts link above but, the year column is sorted ascending, and with an additional column `Cumulative returns` showing returns from the beginning
 
 3. on top of the table have a slider component (https://github.com/react-component/slider
-)
-
-use a range slider like the one in http://react-component.github.io/slider/examples/handle.html
+) use a range slider like the one in http://react-component.github.io/slider/examples/handle.html
  (Range with custom handle)
 
 The range would be the start and end years
 
- 
-
 the table below would filter out to show only the years and the cumulative returns between them
 
  
-
 for e.g say you have downloaded S&P 500 index returns from 1970 - 2018
 
 the range slider on top would default to the maximim range (1970 - 2018)
@@ -59,4 +52,4 @@ $ go to http://localhost:3000
 ```
 
 
-![]()
+![Demo](https://github.com/YKalashnikov/RetireUp-Coding-Test/blob/master/Screen-shot.png)
